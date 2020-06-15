@@ -1,0 +1,1 @@
+import o from"lax.js";var e={name:"VueLax",install:function(e){e.prototype.$lax=o;e.prototype.$lax.setup(),window.requestAnimationFrame((function o(){e.prototype.$lax.update(window.scrollY),window.requestAnimationFrame(o)})),e.mixin({mounted:function(){console.log(this.$el.querySelectorAll)},beforeDestroy:function(){}})}};export default e;
