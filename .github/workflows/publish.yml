@@ -1,0 +1,20 @@
+name: Publish
+
+on:
+  push:
+    branches: [ master ]
+
+
+jobs:
+  publish:
+    runs-on: ubuntu-lates
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+      - run: npm install
+      - run: npm build
+      env:
+        NODE_AUTH_TOKEN: ${{ NPM_AUTH_TOKEN }}
