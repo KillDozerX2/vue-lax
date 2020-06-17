@@ -1,0 +1,32 @@
+<svg width="405" height="280" viewBox="0 0 405 280" fill="none" xmlns="http://www.w3.org/2000/svg" class="banner-img">
+	<g id="Vue Lax Logo">
+		<path id="Capital-L"
+			class="lax"
+			data-lax-opacity="0 0, 200 1"
+			data-lax-translate-y="0 -200, 200 0"
+			d="M0 0L0 242H51L51 0H0Z" fill="#35495E"/>
+		<g id="Vue Logo"
+			class="lax"
+			data-lax-translate-x="0 -64, 200 0">
+			<path id="Lighter"
+				class="lax"
+				data-lax-opacity="0 1, 100 0"
+				data-lax-translate-y="0 0, 100 200"
+				d="M149 59L277 279.8L405 59H353.8L277 191.48L199.56 59H149Z" fill="#41B883"/>
+			<g id="Dark">
+				<path id="LowerDark"
+					class="lax"
+					data-lax-opacity="0 0, 200 1"
+					d="M354.24 242.12L276.8 109L200 242.12H247.36L276.8 190.92L306.88 242.12H354.24Z" fill="#35495E"/>
+				<path id="UpperDark" d="M200 59L277.44 192.12L354.24 59H306.88L277.44 110.2L247.36 59H200Z" fill="#35495E"/>
+			</g>
+		</g>
+		<g id="lowercase-a"
+			class="lax"
+			data-lax-opacity="0 0, 200 1"
+			data-lax-translate-y="0 -200, 200 0">
+			<path id="Vector 1" d="M81.0169 129.897L70.0169 97.897C76.3503 93.0637 99.5169 83.997 141.517 86.397C183.517 88.797 189.5 122.833 190.5 140L190.5 241.897H155.017V224.397C138.217 239.997 114.684 242.564 105.017 241.897C73.5169 239.725 62.0169 215.397 60.0169 198.897C58.8169 140.897 121.85 143.73 155.017 152.397C157.817 114.797 106.85 121.73 81.0169 129.897Z" fill="#35495E"/>
+			<path id="cutout" d="M99.0169 195.397C98.14 168.211 136.35 172.397 155.017 177.897V190.397C134.517 228.397 99.5169 210.897 99.0169 195.397Z" fill="#FFFFFF"/>
+		</g>
+	</g>
+</svg>
