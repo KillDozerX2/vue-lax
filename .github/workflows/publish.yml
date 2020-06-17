@@ -15,6 +15,6 @@ jobs:
           node-version: 12
           registry-url: https://registry.npmjs.org/
       - run: npm install
-      - run: npm build
-      env:
-        NODE_AUTH_TOKEN: ${{ NPM_AUTH_TOKEN }}
+      - run: npm run build
+        env:
+          NODE_AUTH_TOKEN: ${{ NPM_AUTH_TOKEN }}
