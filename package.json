@@ -1,0 +1,53 @@
+{
+	"name": "vue-lax",
+	"version": "0.1.0",
+	"private": false,
+	"unpkg": "dist/vue-example-pkg.umd.min.js",
+	"author": "Himanshu Pant",
+	"license": "MIT",
+	"description": "Vue plugin to use lax.js",
+	"files": [
+		"dist/*",
+		"src/*"
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/KillDozerX2/vue-lax/"
+	},
+	"bugs": {
+		"url": "https://github.com/KillDozerX2/vue-lax/issues"
+	},
+	"scripts": {
+		"build": "vue-cli-service build --target lib src/main.js",
+		"lint": "vue-cli-service lint",
+		"prepublishOnly": "npm run build",
+		"docs:dev": "vuepress dev docs",
+		"docs:build": "vuepress build docs"
+	},
+	"dependencies": {
+		"lax.js": "^1.2.5"
+	},
+	"devDependencies": {
+		"@vue/cli-plugin-babel": "~4.4.0",
+		"@vue/cli-plugin-eslint": "~4.4.0",
+		"@vue/cli-service": "~4.4.0",
+		"@vue/eslint-config-prettier": "^6.0.0",
+		"babel-eslint": "^10.1.0",
+		"eslint": "^6.7.2",
+		"eslint-plugin-prettier": "^3.1.3",
+		"eslint-plugin-vue": "^6.2.2",
+		"prettier": "^1.19.1",
+		"vue-template-compiler": "^2.6.11",
+		"vuepress": "^1.5.2"
+	},
+	"peerDependencies": {
+		"vue": "^2.6.11"
+	},
+	"main": "./dist/vue-lax.common.js",
+	"keywords": [
+		"vue",
+		"vuejs",
+		"lax",
+		"laxjs"
+	]
+}
